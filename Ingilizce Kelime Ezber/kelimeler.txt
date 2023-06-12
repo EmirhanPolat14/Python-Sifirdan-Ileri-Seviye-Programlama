@@ -1,0 +1,50 @@
+Worship: İbadet,tapma
+Prayer: Namaz,dua,ibadet
+Leak: Sızıntı,kaçak
+Ruin: Mahvetmek,harabe,yıkım
+Precious: Değerli,kıymetli
+Deserve: Haketmek
+Improv: Doğaçlama
+Refuse: Reddetmek,çöp,atık
+Blame: Suçlamak
+Blast: Büyük patlama,üfleme
+Sake: Hatır
+Starving: Açlıktan ölme,çok aç
+Yelling: Bağırmak,seslenme
+Dapper: Zarif,şık
+Bring: Getirmek
+Stand-in: Katılmak,vekil,dublör
+Severaly: Şiddetli,ağır,ciddi bir şekilde
+Curfew: Sokağa çıkma yasağı
+Implement: Uygulamak
+Convince: İkna etmek,inandırmak
+Mourning: Yas,matem
+Disturb: Rahatsız etmek,bozmak
+Otherwise: Aksi takdirde, başka, yoksa
+Insist: Israr etmek
+Concerned: Endişeli,ilgili,kaygılı
+Otherwhelmed: Ezilmiş
+Vomit: Kusmuk,kusmak,kusma
+Avoid: Kaçınmak,önlemek,sakınmak
+Lame: Sakatlamak,topal
+Specify: Belirtmek,belirlemek
+Approved: Onaylı
+Throws: Fırlatmak,atmak,atış
+Inspiring: İlham verici
+Wise: Bilge,akıllı
+Permission: İzin,müsade
+Bond: Bağ,tahvil
+Insane: İnanılmaz,deli,çılgın
+Experimental: Deneysel
+Treatment: Tedavi,muamele,işlem
+Strike: Grev,vuruş,çarpmak
+Cradle: Beşik
+Exhibition: Sergi,sergileme,teşhir
+Mystery: Sır,gizem,muamma
+Rid: Kurtulmak,kurtulmuş
+Loiter: Aylak aylak,oyalanmak,sürtmek
+Ordinance: Kararname,yönetmelik,talimatname
+Assignment: Atama,tayin,ödev,görev
+Harvest: Hasat,ürün,harman
+Ancient: Antika,eski
+Frighten: Ürkütmek,korkutmak
