@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="col-lg-8">
+<h3>Makaleler</h3>
+<hr>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <form>
+            {% csrf_token %}
+            <input type="text" name = "keyword" class="input-sm" maxlength="64" placeholder="Ara...">
+            <button type="submit" class="btn btn-danger">ARA</button>
+        </form>
+    </div>    
+</div>
+
+{% if articles %}
+{% for article in articles %}
+<div class="row">
+    <div class="col-lg-8">
+        <!-- Post content-->
+        <article>
+            <!-- Post header-->
+            <header class="mb-4">
+                <!-- Post title-->
+                <a href="{% url 'article:detail' article.id %}"><h4 class="fw-bolder mb-1">{{article.title}}</h4></a>
+                <!-- Post meta content-->
+                <div class="text-muted fst-italic mb-2"><em><small>posted by {{article.author}}</small></em></div>
+                <hr>
+            </header>
+            <!-- Preview image figure-->
+            {% if article.article_image %}
+            <img src="{{article.article_image.url}}" alt="{{article.title}}" /></figure>            
+            {% endif %}
+            
+            
+            <!-- Post content-->
+            <section class="mb-5">
+                <p>
+                    {{article.content | safe | truncatewords:3}} <a href="{% url 'article:detail' article.id %}" button = "btn btn-danger">Devamını Oku</a>
+                </p>
+                
+    
+            </section>
+        </article>
+        
+    </div>
+    
+</div>
+{% endfor %}
+
+{% else %}
+<div class="col-lg-8">
+    <div class = "alert alert-danger">
+        Makale Bulunamadı...
+    </div>
+</div>
+{% endif %}
+{% endblock body %}
